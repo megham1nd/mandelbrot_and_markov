@@ -46,4 +46,5 @@ def mandelbrot_func(x, y, N):
     
     return z
 
+# running function with n = 1000, N = 50, thresh = 50
 mandelbrot_plot(1000, 50, 50)

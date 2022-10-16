@@ -50,4 +50,5 @@ def markov_chain(n, N):
     plt.plot(norms)
     plt.savefig('markov_chain_{}_{}.png'.format(n, N))
 
+# running function with n = 5, N = 10
 markov_chain(5, 10)
