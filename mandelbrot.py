@@ -1,7 +1,7 @@
 import numpy as np
-np.warnings.filterwarnings("ignore")
 import scipy as sci
 import matplotlib.pyplot as plt
+np.warnings.filterwarnings("ignore")
 
 def mandelbrot_plot(n, N, thresh):
     x = np.linspace(-2, 1, n)
