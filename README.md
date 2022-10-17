@@ -1,6 +1,7 @@
 # mandelbrot_and_markov
 
 This project contains two Python scripts, each of which returns: <br />
+
 __mandelbrot.py__: the plot of the Mandelbrot set in the range [-2, 1]x[-1.5i, 1.5i] <br />
 __markov_chain.py__: the difference between the current state vector and the eigenvector with corresponding eigenvalue = 1 through N iterations in a random Markov chain <br />
 
